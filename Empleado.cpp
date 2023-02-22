@@ -21,8 +21,8 @@ class Empleado : Persona
    
   // METODOS
   //set (modificar)
-        void setCD(string cd){cd = cd_e;}
-        void setPuesto(string pu){pu = puesto;}
+        void setCD(string cd){ cd_e= cd;}
+        void setPuesto(string pu){puesto=pu;}
         void setNombres(string nom){nombres = nom;}
         void setApellidos(string ape){apellidos = ape;}
         void setDireccion(string dir){direccion = dir;}
